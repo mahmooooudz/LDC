@@ -6,22 +6,6 @@ Python Backend - A FastAPI application that uses a RAG approach to process queri
 .NET Web API - An ASP.NET Core application that serves as the frontend service, handling user queries, forwarding them to the Python backend, and logging interactions.
 SQL Database - A SQL Server database that stores all user queries and chatbot responses.
 
-Repository Structure
-LDC/
-├── ChatbotAPI/            # .NET Web API project
-│   ├── Controllers/       # API endpoints
-│   ├── Models/            # Data models
-│   ├── Repositories/      # Database access
-│   ├── Services/          # Business logic
-│   └── appsettings.json   # Configuration
-├── python-backend/        # Python RAG implementation
-│   ├── data/              # HR policy documents
-│   ├── app.py             # FastAPI server
-│   ├── document_processor.py
-│   ├── rag_pipeline.py
-│   └── requirements.txt   # Python dependencies
-└── sql-schema.sql         # Database schema
-Architecture
 The system follows a three-tier architecture:
 Client -> .NET Web API -> Python Backend -> HR Policy Documents
                 |
