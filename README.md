@@ -1,4 +1,4 @@
-LDC Technical Assessment - RAG Chatbot System
+RAG Chatbot System
 Overview
 This project implements a Retrieval-Augmented Generation (RAG) chatbot system that answers questions about HR policies. The system consists of three main components:
 
